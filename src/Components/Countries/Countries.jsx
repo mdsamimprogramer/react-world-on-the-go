@@ -22,9 +22,9 @@ const Countries = ({ CountriesPromise }) => {
 
     return (
         <div>
-            <h1>samim country: {countries.length}</h1>
-            <h3>Total Country Visited: {visitedCountries.length}</h3>
-            <h3>Total Flags Visited: {visitedFlag.length}</h3>
+            <h1>country: {countries.length}</h1>
+            <h2>Total Country Visited: {visitedCountries.length}</h2>
+            <h2>Total Flags Visited: {visitedFlag.length}</h2>
             <ol>
                 {
                     visitedCountries.map(country => <li
